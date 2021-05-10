@@ -1,0 +1,26 @@
+/*font-family: 'Itim', cursive;*/
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.clock {
+  border: 1px solid grey;
+  width: 50vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Itim", cursive;
+  font-size: xx-large;
+  color: #1d9ebe;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
