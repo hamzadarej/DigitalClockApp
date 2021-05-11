@@ -9,7 +9,6 @@ body {
 }
 
 .clock {
-  border: 1px solid grey;
   width: 50vw;
   height: 15vh;
   display: flex;
@@ -19,7 +18,7 @@ body {
   font-size: xx-large;
   color: #1d9ebe;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #6baa6b n;
   border-radius: 10px;
 }
 

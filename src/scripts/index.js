@@ -1,7 +1,7 @@
 const displayTime = () => {
   const myDisplay = document.querySelector("#MyClockDisplay");
   var newDate = new Date();
-
+  var season;
   var hours = newDate.getHours();
   var minutes = newDate.getMinutes();
   var seconds = newDate.getSeconds();
