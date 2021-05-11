@@ -5,6 +5,12 @@ const displayTime = () => {
   var hours = newDate.getHours();
   var minutes = newDate.getMinutes();
   var seconds = newDate.getSeconds();
+  if (seconds < 9) {
+    seconds = "0" + seconds;
+  }
+  if (minutes < 9) {
+    seconds = "0" + seconds;
+  }
 
   if (hours == 0) h = 12;
   else if (hours > 12) {
