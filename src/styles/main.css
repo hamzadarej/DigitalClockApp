@@ -6,6 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
+  position: relative;
 }
 
 .clock {
@@ -20,6 +21,12 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #6baa6b n;
   border-radius: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

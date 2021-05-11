@@ -5,6 +5,7 @@ const displayTime = () => {
   var hours = newDate.getHours();
   var minutes = newDate.getMinutes();
   var seconds = newDate.getSeconds();
+
   if (seconds < 9) {
     seconds = "0" + seconds;
   }
@@ -25,3 +26,8 @@ const displayTime = () => {
 };
 
 displayTime();
+
+var getYearDate = new Date();
+var year = getYearDate.getFullYear();
+console.log(year);
+document.querySelector(".getYear").innerHTML = year;

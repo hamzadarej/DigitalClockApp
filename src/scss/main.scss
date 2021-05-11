@@ -6,7 +6,9 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
+  position: relative;
 }
+
 .clock {
   width: 50vw;
   height: 15vh;
@@ -20,4 +22,9 @@ body {
 
   text-shadow: 1px 1px 1px rgb(107, 170, 107) n;
   border-radius: 10px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
 }
