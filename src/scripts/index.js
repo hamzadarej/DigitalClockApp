@@ -30,4 +30,4 @@ displayTime();
 var getYearDate = new Date();
 var year = getYearDate.getFullYear();
 console.log(year);
-document.querySelector(".getYear").innerHTML = year;
+document.querySelector(".getYear").innerHTML = year; 
